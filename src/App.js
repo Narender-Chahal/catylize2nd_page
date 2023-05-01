@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import HeaderSection from "./components/HeaderSection";
+import MyNav from "./components/MyNav";
+import IdentifySection from "./components/IdentifySection";
+import DemoSection from "./components/DemoSection";
+import OurAprochSection from "./components/OurAprochSection";
+import CloseSection from "./components/CloseSection";
+import Accordian from "./components/Accordian";
+import SliderSection from "./components/SliderSection";
+import TargetSection from "./components/TargetSection";
+import FooterSection from "./components/FooterSection";
+import Preloader from "./components/Preloder";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Preloader />
+      <MyNav />
+      <HeaderSection />
+      <IdentifySection />
+      <DemoSection />
+      <OurAprochSection />
+      <CloseSection />
+      <Accordian />
+      <SliderSection />
+      <TargetSection />
+      <FooterSection />
+    </>
   );
 }
 
