@@ -65,7 +65,7 @@ function DemoSection() {
       <div className="nav_blur_circle opacity_animation top-0 end-0 position-absolute "></div>
       <Container className="custom_container mt-4">
         <Row className="justify-content-center mb-5 pb-md-5 pb-3">
-          <Col sm={10}>
+          <Col sm={10} data-aos="flip-left">
             <div className="position-relative">
               {" "}
               <img className="w-100  min_50_xsm" src={demo_img} alt="" />
@@ -113,12 +113,16 @@ function DemoSection() {
           </Col>
         </Row>
         <Row className="mt-lg-5 pt-xl-5 d-none d-lg-flex">
-          <Col lg={3} className="justify-content-start mt-5">
+          <Col
+            lg={3}
+            className="justify-content-start mt-5"
+            data-aos="flip-right"
+          >
             <h2 className="mb-0 fw-semibold fs_7xl">Our Platform</h2>
           </Col>
           <Col lg={9} className="mt-5">
             <Row>
-              <Col md={6}>
+              <Col md={6} data-aos="flip-left">
                 <div className="box_plateform  d-flex flex-column justify-content-between">
                   <Row className="align-items-center ">
                     <Col sm={6} xs={6}>
@@ -138,7 +142,7 @@ function DemoSection() {
                   </p>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col md={6} data-aos="flip-right">
                 <div className="box_plateform  d-flex flex-column  justify-content-between">
                   <Row className="align-items-center">
                     <Col sm={5} xs={6}>
@@ -162,7 +166,7 @@ function DemoSection() {
         <Row className="mt-2 pt-2 d-none d-lg-flex">
           <Col md={9}>
             <Row>
-              <Col md={6}>
+              <Col md={6} data-aos="flip-right">
                 <div className="box_plateform  d-flex flex-column justify-content-between">
                   <Row className="align-items-center ">
                     <Col sm={6} xs={6}>
@@ -180,7 +184,7 @@ function DemoSection() {
                   </p>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col md={6} data-aos="flip-right">
                 <div className="box_plateform  d-flex flex-column justify-content-between">
                   <Row className="align-items-center ">
                     <Col sm={6} xs={6}>
@@ -204,15 +208,15 @@ function DemoSection() {
               </Col>
             </Row>
           </Col>
-          <Col md={3}>
-            <div className="position-relative">
+          <Col md={3} data-aos="flip-right">
+            <div className="position-relative hover_geen_box">
               <img
                 className="w-100 "
                 height="363px"
                 src={pricing_img}
                 alt="pricing_img"
               />
-              <button className="fw-semibold fs_md border-0 bg-transparent text-white position-absolute bottom-0 start-0 px-4 pb-5 d-flex justify-content-between  w-100 ">
+              <button className="fw-semibold fs_md border-0  bg-transparent text-white position-absolute bottom-0 start-0 px-4 pb-5 d-flex justify-content-between  w-100 ">
                 <span>View pricing </span>
                 <span>
                   <svg
@@ -357,21 +361,31 @@ function DemoSection() {
           </Col>
         </Slider>
         <Row className="my-sm-5 py-5 justify-content-center">
-          <Col sm={6} md={4} className="text-center">
+          <Col sm={6} md={4} className="text-center" data-aos="flip-right">
             <img src={eyes_img} alt="eyes_img" />
             <p className="mb-0 fw-normal fs_md pt-2 ">
               Harness the power of 30 million data points to reach your highest
               converting target market
             </p>
           </Col>
-          <Col sm={6} md={4} className="text-center mt-4 mt-md-0">
+          <Col
+            sm={6}
+            md={4}
+            className="text-center mt-4 mt-md-0"
+            data-aos="flip-right"
+          >
             <img src={Roi_img} alt="Roi_img" />
             <p className="mb-0 fw-normal fs_md pt-2 ">
               Increase your marketingdollars{" "}
               <span className="d-md-block ">ROI 6</span>{" "}
             </p>
           </Col>
-          <Col sm={6} md={4} className="text-center mt-4 mt-md-0">
+          <Col
+            sm={6}
+            md={4}
+            className="text-center mt-4 mt-md-0"
+            data-aos="flip-right"
+          >
             <img src={Pipeline_img} alt="Pipeline_img" />
             <p className="mb-0 fw-normal fs_md pt-2 ">
               A top of funnel marketing solution{" "}

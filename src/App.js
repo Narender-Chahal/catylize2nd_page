@@ -14,7 +14,18 @@ import SliderSection from "./components/SliderSection";
 import TargetSection from "./components/TargetSection";
 import FooterSection from "./components/FooterSection";
 import Preloader from "./components/Preloder";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    Aos.init({
+      once: false,
+      duration: 1500,
+      delay: 200,
+    });
+  }, []);
+
   return (
     <>
       <Preloader />

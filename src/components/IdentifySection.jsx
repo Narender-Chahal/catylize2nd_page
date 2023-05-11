@@ -51,7 +51,10 @@ function IdentifySection() {
         </h2>
         <Row className="mt-lg-5 mt-3   pt-4 align-items-center">
           <Col md={3} sm={6} className="text-center">
-            <h3 className="mb-0 text-center fw-normal fs_xl d-none d-lg-block">
+            <h3
+              className="mb-0 text-center fw-normal fs_xl d-none d-lg-block"
+              data-aos="fade-up"
+            >
               Industry High <span className="d-md-block ">Prediction Rate</span>
             </h3>
           </Col>
@@ -64,6 +67,7 @@ function IdentifySection() {
             md={3}
             sm={6}
             className="text-center d-flex flex-column justify-content-center align-items-center"
+            data-aos="fade-up"
           >
             {" "}
             <h3 className="mb-0 text-center fw-normal fs_xl d-lg-none">
@@ -85,6 +89,7 @@ function IdentifySection() {
             md={3}
             sm={6}
             className="text-center mt-md-5 mt-lg-0 pt-2 pt-lg-0 d-flex flex-column justify-content-center align-items-center"
+            data-aos="fade-down"
           >
             <h3 className="mb-0 fw-semibold fs_5xl pt-3 pb-5">
               $77 <span className="fw-normal fs_4xl">Bn</span>
@@ -103,6 +108,7 @@ function IdentifySection() {
             md={3}
             sm={6}
             className="text-center mt-md-5 mt-lg-0 pt-2 pt-lg-0  d-flex flex-column justify-content-center align-items-center "
+            data-aos="fade-up"
           >
             <h3 className="mb-0 fw-semibold fs_5xl pt-md-3 pt-4 pb-md-5 pb-4">
               77%

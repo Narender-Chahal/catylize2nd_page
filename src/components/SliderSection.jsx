@@ -54,7 +54,7 @@ function SliderSection() {
           <div className="mx-2 px-2">
             <div className="richard_box h-100    d-flex flex-column justify-content-between">
               <div className="d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center justify-content-between justify-content-sm-start w-75">
                   <div className="rc_box d-flex align-items-center justify-content-center clr_green">
                     <h2 className="mb-0 fw-semibold fs_md">RC</h2>
                   </div>
@@ -65,7 +65,7 @@ function SliderSection() {
                     </span>
                   </div>
                 </div>
-                <div>
+                <div className="d-none d-sm-block">
                   <img src={vector} alt="vectors" />
                 </div>
               </div>
@@ -81,18 +81,18 @@ function SliderSection() {
             {" "}
             <div className="richard_box h-100    d-flex flex-column justify-content-between">
               <div className="d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center">
-                  <div className="rc_box d-flex align-items-center justify-content-center clr_green">
+                <div className="d-flex align-items-center justify-content-between justify-content-sm-start w-100">
+                  <div className="rc_box pc_box_xsm d-flex align-items-center justify-content-center clr_green">
                     <h2 className="mb-0 fw-semibold fs_md">PM</h2>
                   </div>
-                  <div className="d-flex flex-column ps-sm-4 ps-2 ms-1">
+                  <div className="d-flex flex-column ps-sm-4 ps-sm-2 ms-sm-1">
                     <span className="fw-semibold fs_xl">Paul Morris</span>
-                    <span className="fw-normal fs_xsm clr_lightdark">
+                    <span className="fw-normal fs_xsm clr_lightdark w_100_xsm">
                       CEO of KW Forward Living KW Regianal Owner
                     </span>
                   </div>
                 </div>
-                <div>
+                <div className="d-none d-sm-block">
                   <img src={vector} alt="vectors" />
                 </div>
               </div>
@@ -117,7 +117,7 @@ function SliderSection() {
                     </span>
                   </div>
                 </div>
-                <div>
+                <div className="d-none d-block">
                   <img src={vector} alt="vectors" />
                 </div>
               </div>
@@ -133,18 +133,18 @@ function SliderSection() {
             {" "}
             <div className="richard_box h-100  d-flex flex-column justify-content-between">
               <div className="d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center  justify-content-between justify-content-sm-start w-100">
                   <div className="rc_box d-flex align-items-center justify-content-center clr_green">
                     <h2 className="mb-0 fw-semibold fs_md">PM</h2>
                   </div>
-                  <div className="d-flex flex-column ps-sm-4 ps-2 ms-1">
+                  <div className="d-flex flex-column ps-sm-4 ps-sm-2 ms-sm-1">
                     <span className="fw-semibold fs_xl">Paul Morris</span>
-                    <span className="fw-normal fs_xsm clr_lightdark">
+                    <span className="fw-normal fs_xsm clr_lightdark w_100_xsm">
                       CEO of KW Forward Living KW Regianal Owner
                     </span>
                   </div>
                 </div>
-                <div>
+                <div className="d-none d-sm-block">
                   <img src={vector} alt="vectors" />
                 </div>
               </div>

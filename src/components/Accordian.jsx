@@ -11,7 +11,7 @@ import chech_vector from "../assets/img/png/check_vector.png";
 function Accordian() {
   const [first, setfirst] = useState(2);
   return (
-    <section className="accordiyan_box pt-5 mt-5 pb-lg-5">
+    <section className="accordiyan_box pt-5 mt-5 pb-lg-5 overflow-hidden">
       <Container className="custom_container ">
         <h2 className="mb-0 fw-semibold fs_7xl text-center text-white">
           How to get started?
@@ -22,6 +22,7 @@ function Accordian() {
               <Accordion.Item
                 eventKey="0"
                 className="my-4 max_900 accordiyan_bg mx-auto"
+                data-aos="fade-right"
               >
                 <Accordion.Header onClick={() => setfirst(1)}>
                   <p
@@ -49,6 +50,7 @@ function Accordian() {
               <Accordion.Item
                 eventKey="1"
                 className="my-4 max_900 accordiyan_bg mx-auto"
+                data-aos="fade-right"
               >
                 <Accordion.Header onClick={() => setfirst(2)}>
                   <span
@@ -76,6 +78,7 @@ function Accordian() {
               <Accordion.Item
                 eventKey="2"
                 className="my-4 max_900 accordiyan_bg mx-auto"
+                data-aos="fade-right"
               >
                 <Accordion.Header onClick={() => setfirst(3)}>
                   <span
@@ -130,9 +133,8 @@ function Accordian() {
               </Accordion.Item>
             </Accordion>
           </Col>
-          <Col lg={5} sm={8} xs={8} className="py-5">
-            <div className="position-relative">
-              {" "}
+          <Col lg={5} sm={8} xs={10} className="py-5" data-aos="fade-left">
+            <div className="position-relative" data-aos="fade-left">
               <img
                 className={
                   first === 2 ? "  d-flex w-100 pb-3 " : "d-none w-100 "
@@ -153,7 +155,7 @@ function Accordian() {
               </div>
             </div>
             <img
-              className={first === 1 ? "  d-flex w-100 pb-3" : "d-none w-100"}
+              className={first === 1 ? "  d-flex w-100 pb-3 " : "d-none w-100"}
               src={accordiyan_img2}
               alt="accordiyan_img2"
             />
@@ -192,10 +194,10 @@ function Accordian() {
               </div>
             </div>
             <div className="d-flex align-items-center mt-4 ">
-              <button className="fw-normal fs_md common_btn text-white sign_up_btn1  ">
+              <button className="fw-normal fs_md common_btn text-white sign_up_btn1 sign_up_btn1_xsm ">
                 Sign up
               </button>
-              <h3 className="mb-0 fw-normal clr_lightwhite2 fs_md ms-4 ps-3">
+              <h3 className="mb-0 fw-normal clr_lightwhite2 fs_md ms-md-4 ps-3">
                 Register in under 5 minutes.
               </h3>
             </div>

@@ -57,13 +57,13 @@ function MyNav() {
               <div className="d-lg-none d-flex flex-column">
                 <button
                   onClick={() => setfirst(false)}
-                  className="fw-semibold border-0 bg-transparent signup_btn clr_green fs_md  mt-4 mt-lg-0"
+                  className="fw-semibold border-0 bg-transparent signup_btn  clr_green fs_md  mt-4 mt-lg-0"
                 >
                   Sign up
                 </button>
                 <button
                   onClick={() => setfirst(false)}
-                  className="fw-semibold fs_md clr_green log_in_button  mt-4 mt-lg-0"
+                  className="fw-semibold fs_md clr_green log_in_button position-relative mt-4 mt-lg-0"
                 >
                   Log in
                   <svg
